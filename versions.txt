@@ -1,0 +1,6 @@
+echart => 4.2.0-rc.2
+morris => 0.5.1
+raphael => 2.1.0
+jquery => 3.3.1
+chartlist => 0.11.0
+charts => 2.4.0

@@ -1,0 +1,31 @@
+{
+  "name": "js-chart-library",
+  "version": "1.0.0",
+  "description": "Brings together several chart libraries and makes them easy to use",
+  "main": "build/index.js",
+  "scripts": {
+    "dev": "watch 'npm run build' src",
+    "build": "babel src -d build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "babel": {
+    "presets": [
+      "latest"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielmelolima/js-chart-library.git"
+  },
+  "author": "Daniel Lima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielmelolima/js-chart-library/issues"
+  },
+  "homepage": "https://github.com/danielmelolima/js-chart-library#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "watch": "^1.0.2"
+  }
+}
